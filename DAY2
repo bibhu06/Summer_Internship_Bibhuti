@@ -1,1 +1,8 @@
-
+/* Basic CODE for Understanding of KOTLIN */
+fun main() {
+    println(hello("Bibhu"))
+}
+fun hello(name : String){
+    val nameGreeting = "Hello $name!"
+    println(nameGreeting)
+}
